@@ -1,0 +1,19 @@
+.chat {
+    width: 360px;
+    height: 820px;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    overflow: auto;
+    transform: rotate(180deg);
+    direction: rtl;
+}
+
+.message-wrapper {
+    transform: rotate(180deg);
+    direction: ltr;
+}

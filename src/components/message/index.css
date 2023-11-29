@@ -1,0 +1,7 @@
+.message {
+    max-width: 240px;
+    border-radius: 4px;
+    background-color: #ddd;
+    padding: 8px;
+    width: fit-content;
+}
