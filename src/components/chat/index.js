@@ -20,6 +20,7 @@ function Chat(props) {
 
   return (
     <div ref={chatElement} className="chat">
+        <div className='place-holder' ></div>
         {props.messageList.map(item=><div className='message-wrapper'>
             <Message message={item} />
         </div>)}

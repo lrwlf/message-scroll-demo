@@ -1,4 +1,4 @@
-.chat {
+.chat-flex {
     width: 360px;
     height: 820px;
     border-radius: 4px;
@@ -6,20 +6,13 @@
     padding: 16px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 40px;
     overflow: auto;
-    transform: rotate(180deg);
-    direction: rtl;
 }
 
-.chat .place-holder {
+.chat-flex .place-holder {
     background: black;
     flex-grow: 1;
     flex-shrink: 1;
-}
-
-.chat .message-wrapper {
-    transform: rotate(180deg);
-    direction: ltr;
 }

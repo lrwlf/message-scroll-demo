@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
 import Chat from './components/chat';
+import ChatFlex from './components/chat-flex'
 import './App.css';
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
 
   return (
     <div className="App">
-      <Chat messageList={messageList} />
+      {/* <Chat messageList={messageList} /> */}
+      <ChatFlex messageList={messageList} />
       <button onClick={() => setMessageList([`第${messageList.length}条消息`, ...messageList])} className='send-button'>发消息</button>
       <button onClick={() => setStartRender(!startRender)} className='send-button'>逐字渲染</button>
     </div>
